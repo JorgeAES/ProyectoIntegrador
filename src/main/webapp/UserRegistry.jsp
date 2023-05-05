@@ -28,13 +28,17 @@
 		<input type="text" name="password" value=""><br>
 		Tipo de usuario:<br>
 		<input type="radio" id="userOpp" name="type" value="User">Operaciones<br>
-		<input type="radio" id="userAdm" name="type" value="Admin">Administrador<br><br>
+		<input type="radio" id="userAdm" name="type" value="Admin">Administrador<br>
 		<input type="submit" value="Registrar!"><br>
-		
 		<br><br><br>
-		<br><br><br><input type="submit" value="Menu Anterior">
-		<input type="submit" value="Menu Principal">
+		<br><br><br>
 
+	</form>
+		
+	<form action="menuMain.jsp">
+		<input type="submit" value="Menu Anterior">
+    	<input type="submit" value="Menu Principal">
+		
 	</form>
 
 	<% String mensaje = (String)request.getAttribute("usuarioExistente");
