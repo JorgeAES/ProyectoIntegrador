@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>TEG Parts Control</title>
+<title>TEG Parts Control - Login</title>
 </head>
 <body>
 	
